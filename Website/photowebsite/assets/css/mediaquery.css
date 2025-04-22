@@ -1,0 +1,343 @@
+/* media query */
+
+@media (max-width:1200px) {
+    .portfolio-item {
+        margin-left: 50px !important;
+    }
+
+
+    #teams .m-images img {
+        margin-bottom: 40px;
+    }
+
+
+}
+
+
+
+@media (max-width:1050px) {
+    .portfolio-item .item {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .container {
+        max-width: 1500px !important;
+        margin: 0 !important;
+    }
+
+    .icon {
+        background: transparent;
+        color: #000 !important;
+    }
+
+    .header.sticky .menu .icon {
+        color: #000 !important;
+    }
+
+    .navbar ul {
+        background: #fff;
+        padding: 0 !important;
+    }
+
+    .menu a {
+        color: #000;
+    }
+
+    .menu a:hover {
+        color: #000;
+    }
+
+    .portfolio-item {
+        margin-left: 30px !important;
+    }
+}
+
+@media (max-width:920px) {
+    .portfolio-item .item {
+        width: 130px;
+        height: 130px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .m-images img {
+        width: 130px;
+        height: 130px;
+    }
+
+
+}
+
+
+@media (max-width:769px) {
+    .h-text {
+        max-width: 600px !important;
+    }
+
+    .portfolio-item .item {
+        margin-left: 70px !important;
+
+    }
+
+    .member-info .content {
+        margin-top: 15px;
+        font-size: 1em;
+        line-height: 25px;
+        padding: 0 20px;
+    }
+
+    #contact #contact-row-1 #newsletter {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #contact #contact-row-1 #ntext {
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+
+
+
+@media (max-width:600px) {
+    .h-text {
+        max-width: 300px !important;
+    }
+
+    section {
+        padding-top: 100px !important;
+    }
+
+    .portfolio-item {
+        margin-left: 30px !important;
+    }
+
+    #about #social-icon img {
+        width: 10% !important;
+    }
+}
+
+@media (max-width:620px) {
+    .portfolio-item .item {
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 30px !important;
+        margin-left: 10px !important;
+    }
+
+
+
+}
+
+
+@media (max-width:550px) {
+    #teams .m-images .col-lg-6 {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+
+
+@media (max-width:450px) {
+
+    .logo {
+        font-size: 2em;
+        padding-left: 0;
+    }
+
+    .navbar-dark .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .h-text h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-bottom: 25px;
+    }
+
+
+    .h-text input {
+        width: 80%;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .h-text button {
+        width: 15%;
+        padding: 10px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+
+    .member-info h1 {
+        font-size: 2em;
+    }
+
+    .member-info .content {
+        margin-top: 15px;
+        font-size: .7em;
+        line-height: 20px;
+        padding: 0 20px;
+    }
+
+    .member-info .name {
+        font-size: 1.5em;
+    }
+
+
+    .portfolio-item .item {
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-item {
+        margin-left: 20px !important;
+    }
+
+    .portfolio-menu ul li {
+        font-size: 10px;
+    }
+
+    #gallery h1 {
+        font-size: 2em;
+    }
+
+    #teams h1 {
+        font-size: 2em;
+    }
+
+
+
+    .m-images img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    section {
+        padding: 60px 0 !important;
+        /* border: 1px solid; */
+    }
+
+
+
+}
+
+
+@media (max-width:385px) {
+
+
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+
+    .newsletter p {
+        font-size: 15px;
+    }
+
+    .ntext input {
+        padding: 10px;
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .ntext button {
+        padding: 10px;
+        width: 30%;
+        font-size: 12px;
+
+    }
+
+
+    #contact .f-contact .col-sm-6>div{
+        padding:2rem !important;
+    }
+
+}
+
+
+
+@media (max-width:281px) {
+    .navbar {
+        padding-left: 8px;
+        padding-right: 0px;
+    }
+
+    .h-text h1 {
+        font-size: 1.5em;
+    }
+
+    .h-text {
+        max-width: 280px !important;
+    }
+
+    .member-info h1 {
+        font-size: 1.5em;
+    }
+
+    .member-info .content {
+        font-size: .6em;
+
+    }
+
+    .member-info .name {
+        font-size: 1.em;
+    }
+
+    .portfolio-menu ul li {
+        font-size: 8px;
+    }
+
+
+
+    .portfolio-item {
+        margin-left: 20px !important;
+        /* border:1px solid ; */
+    }
+
+
+    #gallery h1 {
+        font-size: 1.5em;
+    }
+
+    #teams h1 {
+        font-size: 1.5em;
+    }
+
+    .newsletter h3 {
+        font-size: 1em;
+    }
+
+    .newsletter p {
+        font-size: 10px;
+    }
+
+    .ntext input {
+        padding: 5px;
+        font-size: 5px;
+        width: 50px ;
+        border-radius: 0;
+    }
+
+    .ntext button {
+        padding: 5px;
+        width: 35%;
+        font-size: 5px;
+        border-radius: 0;
+    }
+}

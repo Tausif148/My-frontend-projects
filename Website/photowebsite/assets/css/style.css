@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+section {
+    padding: 100px 0;
+    /* border: 1px solid; */
+}
+
+
+.col-lg-6 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+h1 span {
+    color: #e74c3c;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    z-index: 999;
+    height: 80px;
+    transition: top 0.3s;
+    color: #fff;
+
+}
+
+.header.sticky {
+    background: rgba(255, 255, 255);
+}
+
+.header.sticky .logo,
+.header.sticky .menu a {
+    color: #000 !important;
+}
+
+.header.sticky .menu .icon {
+    color: #fff !important;
+}
+
+
+
+
+.navbar.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+.logo {
+    font-size: 2.5em;
+}
+
+.logo span {
+    color: #e74c3c;
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+
+}
+
+.menu a.active {
+    color: #e74c3c;
+}
+
+.menu a:hover {
+    color: #e74c3c;
+}
+
+
+
+.icon {
+    background: #e74c3c;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.icon:hover {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+/* home start */
+#home {
+    height: 100vh;
+    /* width: 100vw; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/banner.jpg');
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h-text {
+
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 1px solid; */
+
+}
+
+#camera {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.h-text h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+}
+
+.h-text input {
+    width: 60%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.h-text button {
+    width: 30%;
+    padding: 20px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+/* about start */
+
+.member-info {
+    text-align: center;
+}
+
+.member-info h1 {
+    font-size: 2.5em;
+}
+
+
+.member-card {
+    text-align: center;
+}
+
+/* about end */
+
+
+
+
+
+
+
+
+/* gellery start */
+
+.portfolio-item {
+    margin-left: 100px !important;
+}
+
+.portfolio-menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+.portfolio-menu ul li:hover {
+    color: #fff;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+
+li.active {
+    color: #fff;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+
+
+
+.portfolio-item .item {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.portfolio-item .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+/* gellery end */
+
+
+
+
+
+
+
+/* teams start */
+#teams {
+    /* border: 2px solid; */
+}
+
+
+
+.m-images img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.m-images img:hover {
+    transform: scale(1.5);
+}
+
+/* teams end */
+
+
+
+/* footer start */
+footer {
+    background: #262626;
+}
+
+#contact-row-1 {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.newsletter {
+    color: #fff;
+}
+
+
+
+.newsletter p {
+    font-size: 18px;
+}
+
+
+
+.ntext input {
+    padding: 20px;
+    border-radius: 8px  0 0 8px;
+    border: none;
+    outline: none;
+}
+
+.ntext button {
+    padding: 20px;
+    width: 30%;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0 8px 8px 0;
+}
+
+
+
+/* footer 2nd row */
+.f-contact {
+    color: #fff;
+    margin-top: 3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+footer .f-contact .col-lg-3 h3 {
+    margin-bottom: 20px;
+}
+
+.f-contact p {
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+
+.f-contact p:hover {
+    color: #fff;
+}
+
+.f-contact #icon {
+    margin: 30px 0;
+}
+
+.f-contact i {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+}
+
+.f-contact i:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+}
